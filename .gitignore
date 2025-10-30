@@ -130,3 +130,19 @@ profiler.out
 
 # Ensure requirements and source remain tracked
 !requirements.txt
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+.gitignore 
