@@ -1,0 +1,16 @@
+# Project requirements for Penzer orchestrator
+# NOTE: faiss is intentionally NOT included here per request — the vector DB support
+# can use a pre-existing FAISS installation or the numpy fallback.
+
+# Core runtime
+numpy>=1.24.0
+aiosqlite>=0.18.0
+colorama>=0.4.6
+
+# Optional / testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Development helpers (optional)
+black>=23.0.0
+flake8>=6.0.0

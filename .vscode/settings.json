@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "/media/eric/sdb4/penzer/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.env.linux": {
+        "VIRTUAL_ENV": "/media/eric/sdb4/penzer",
+        "PATH": "/media/eric/sdb4/penzer/bin:${env:PATH}"
+    },
+    "python-envs.pythonProjects": []
+}

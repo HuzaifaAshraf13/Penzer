@@ -1,0 +1,13 @@
+penzer/
+├── main.py                # global entrypoint (starts/controls the single agent)
+└── Agent/
+    ├── main.py            # agent entrypoint / agent loop
+    ├── memory.py          # agent-local memory/context (scans, sessions, history)
+    ├── tools.py           # installs/configures/runs tools (nmap, metasploit, etc.)
+    ├── parser.py          # parses outputs (nmap, metasploit, other tools)
+    ├── context.py         # agent-local run-state and persistent data store
+    └── utils.py           # helpers (formatting, retries, logging helpers)
+
+
+# source /media/eric/sdb4/penzer/bin/activate
+
